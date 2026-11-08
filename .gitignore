@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.coverage
+build/
+dist/
+
+# regenerate with `gnnsurrogate generate` (~18 min) and `gnnsurrogate train` (~2 min)
+data/
+registry/*/v*/model*

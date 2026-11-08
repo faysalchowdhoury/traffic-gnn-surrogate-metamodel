@@ -1,0 +1,82 @@
+[Network]
+Network Settings
+RECORDNAME,DATA
+Metric,1
+yellowTime,4.0
+allRedTime,2.0
+Walk,7.0
+DontWalk,11.0
+HV,0.02
+PHF,0.95
+
+[Timeplans]
+Timing Plan Settings
+RECORDNAME,INTID,DATA
+Control Type,101,3
+Cycle Length,101,100.0
+Lock Timings,101,0
+Referenced To,101,0
+Reference Phase,101,206
+Offset,101,0.0
+Control Type,102,3
+Cycle Length,102,100.0
+Lock Timings,102,0
+Referenced To,102,0
+Reference Phase,102,206
+Offset,102,0.0
+Control Type,103,3
+Cycle Length,103,100.0
+Lock Timings,103,0
+Referenced To,103,0
+Reference Phase,103,206
+Offset,103,0.0
+Control Type,104,3
+Cycle Length,104,100.0
+Lock Timings,104,0
+Referenced To,104,0
+Reference Phase,104,206
+Offset,104,0.0
+
+[Phases]
+Phases Data
+RECORDNAME,INTID,D1,D2,D3,D4,D5,D6,D7,D8
+BRP,101,111,112,211,212,121,122,221,222
+MinGreen,101,5,15,5,8,5,15,5,8
+MaxGreen,101,8,41,7,22,8,41,7,22
+VehExt,101,2.5,3.0,2.5,3.0,2.5,3.0,2.5,3.0
+Yellow,101,4,4,4,4,4,4,4,4
+AllRed,101,1,2,1,2,1,2,1,2
+Recall,101,0,3,0,0,0,3,0,0
+DualEntry,101,0,1,0,1,0,1,0,1
+BRP,102,111,112,,211,121,122,,221
+MinGreen,102,5,15,,8,5,15,,8
+MaxGreen,102,7,47,,29,7,47,,29
+VehExt,102,2.5,3.0,,3.0,2.5,3.0,,3.0
+Yellow,102,4,4,,4,4,4,,4
+AllRed,102,1,2,,2,1,2,,2
+Recall,102,0,3,,0,0,3,,0
+DualEntry,102,0,1,,1,0,1,,1
+BRP,103,111,112,211,212,121,122,221,222
+MinGreen,103,5,15,5,8,5,15,5,8
+MaxGreen,103,8,43,6,21,8,43,6,21
+VehExt,103,2.5,3.0,2.5,3.0,2.5,3.0,2.5,3.0
+Yellow,103,4,4,4,4,4,4,4,4
+AllRed,103,1,2,1,2,1,2,1,2
+Recall,103,0,3,0,0,0,3,0,0
+DualEntry,103,0,1,0,1,0,1,0,1
+BRP,104,111,112,,211,121,122,,221
+MinGreen,104,5,15,,8,5,15,,8
+MaxGreen,104,7,45,,31,7,45,,31
+VehExt,104,2.5,3.0,,3.0,2.5,3.0,,3.0
+Yellow,104,4,4,,4,4,4,,4
+AllRed,104,1,2,,2,1,2,,2
+Recall,104,0,3,,0,0,3,,0
+DualEntry,104,0,1,,1,0,1,,1
+
+[Volume]
+Volume Data
+DATE,TIME,INTID,NBL,NBT,NBR,SBL,SBT,SBR,EBL,EBT,EBR,WBL,WBT,WBR
+01/01/2026,1700,101,70,280,40,60,300,50,90,1050,60,100,950,70
+01/01/2026,1700,102,,260,30,,240,40,70,1040,50,60,960,40
+01/01/2026,1700,103,60,280,40,70,260,30,80,1030,60,90,940,50
+01/01/2026,1700,104,,300,40,,320,50,70,1020,50,80,930,60

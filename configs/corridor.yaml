@@ -1,0 +1,7 @@
+# Arterial geometry and lane data that UTDF timing files do not carry.
+name: main_street
+utdf: main_street_existing.utdf.csv
+speed_mph: 40
+positions_m: {101: 0, 102: 420, 103: 820, 104: 1350}
+lanes: {2: 2, 6: 2}          # arterial through lanes; everything else defaults to 1
+sat_flow_vphpl: {through: 1800, left: 1700}
